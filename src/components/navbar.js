@@ -1,7 +1,14 @@
-
+import logo from '../image/logo192.png'
+ 
  function Navbar(){
 
-    return(<h1>Navbar Componet</h1>)
+    return(
+    <nav>
+        <img src={logo} alt='logo'/>
+        <h3>ReactFacts</h3>
+        <h4>React Course- project 1</h4>
+    </nav>
+    )
 
     
 }

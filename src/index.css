@@ -1,7 +1,62 @@
-.nav-logo{
-  width: 230px;
-    height: 127px;
-    
-    margin: 6px;
-    border-radius: 5%;
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0em;
+  font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282d35;
+}
+nav{
+  display: flex;
+  align-items: center;
+  background-color: #12222A;
+  height: 90px;
+  padding: 30px 25px;
+}
+nav > h3,nav >h4{
+margin: 0;
+}
+nav>h4{
+  color: #a0d4ee;
+  font-weight: 600;
+}
+nav> h3{
+  margin-right:auto ;
+  color: #8bbcca;
+  font-weight: 700;
+  font-size: 22px;
+}
+nav>img{
+  height: 40px;
+  margin-right:7px;
+}
+
+main{
+  
+  padding: 57px 27px;
+  color: #fcfcfc;
+}
+
+.main--title{
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 0.07em;
+}
+.main--facts{
+  margin-top: 40px;
+  max-width: 700px;
+  letter-spacing: 0.07em;
+
+}
+.main--facts > li{
+  line-height: 19px;
+  padding-block: 10px;
+}
+.main--facts > li{
+  font-size: 1.2rem;
+}
+
+.main--facts > li::marker {
+  font-size: 1.3rem;
 }
