@@ -3,7 +3,7 @@
 
     return(
 
-        <h1>Main Componet</h1>
+        <h1>Main Componets</h1>
     )
 }
 
